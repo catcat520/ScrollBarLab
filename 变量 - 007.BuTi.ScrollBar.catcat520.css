@@ -58,6 +58,10 @@
 ::-webkit-scrollbar-corner{background-color: transparent;}
 ::-webkit-scrollbar-corner:window-inactive{background-color: transparent;}
 
+
+
+
+
 /* FireFox 部分未整理 */
 @-moz-document url-prefix(http://),
         url-prefix(https://),
