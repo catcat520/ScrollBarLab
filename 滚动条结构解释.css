@@ -1,15 +1,18 @@
 /* 滚动条整体轨道 */
 ::-webkit-scrollbar(滚动条常规状态)
 ::-webkit-scrollbar:hover(鼠标悬停在滚动条上)
+
 ::-webkit-scrollbar:vertical(垂直滚动条常规状态)
 ::-webkit-scrollbar:horizontal(水平滚动条常规状态)
 
+::-webkit-scrollbar:vertical:hover(鼠标悬停在垂直滚动条上)
+::-webkit-scrollbar:horizontal:hover(鼠标悬停在水平滚动条上)
 
+::-webkit-scrollbar:vertical:active(鼠标点击垂直滚动条)
+::-webkit-scrollbar:horizontal:active(鼠标点击水平滚动条)
 
-
-
-
-
+::-webkit-scrollbar:vertical:window-inactive(鼠标离开水平垂直滚动条所在父窗口的子窗口焦点)
+::-webkit-scrollbar:horizontal:window-inactive(鼠标离开水平滚动条所在父窗口的子窗口焦点)
 
 
 
