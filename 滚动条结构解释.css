@@ -1,0 +1,5 @@
+/* 滚动条整体轨道 */
+::-webkit-scrollbar(滚动条常规状态)
+::-webkit-scrollbar:hover(鼠标悬停在滚动条上)
+::-webkit-scrollbar:vertical(垂直滚动条常规状态)
+::-webkit-scrollbar:horizontal(水平滚动条常规状态)
