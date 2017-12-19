@@ -1,41 +1,41 @@
 /* 名称：007.BuTi.ScrollBar.Chinese.catcat520 *//* 别名：007.滚动条外观设置㊣ */
-/* 更新：2017.08.12 | 14:07 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
+/* 更新：2017.12.19 | 08:00 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
 /* 功能：滚动条外观设置 *//*[[SwitchAGENT_SHEET]]*/
 /* 适用：Win/*nix 系统 和 FireFox 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100474/ */
 /* 帮助：http://xxxxxx *//* 反馈问题需附上 截图 */
 
 /* Chrome */
-/* 初始值 */
-::-webkit-scrollbar{width: 9px;height: 9px;background-color: transparent;}
-::-webkit-scrollbar:hover{width: 9px;height: 9px;background-color: transparent;}
+/* 初始值必须设置，否则代码无法正常运行 */
+::-webkit-scrollbar{width: 6px;height: 6px;background-color: transparent;}
+::-webkit-scrollbar:hover{width: 6px;height: 6px;background-color: transparent;}
 /* 用户设置 */
 /* 滚动条整体轨道 */
 ::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}
 ::-webkit-scrollbar:horizontal{height: /*[[ScrollBarTrackHeight]]*/;background-color: /*[[ScrollBarTrackXColor]]*/;}
-::-webkit-scrollbar:vertical:hover{width: 9px;background-color: transparent;}
-::-webkit-scrollbar:horizontal:hover{height: 9px;background-color: transparent;}
+::-webkit-scrollbar:vertical:hover{width: 6px;background-color: transparent;}
+::-webkit-scrollbar:horizontal:hover{height: 6px;background-color: transparent;}
 ::-webkit-scrollbar:vertical:active{background-color: transparent;}
 ::-webkit-scrollbar:horizontal:active{background-color: transparent;}
-::-webkit-scrollbar:vertical:window-inactive{width: 9px;background-color: transparent;}
-::-webkit-scrollbar:horizontal:window-inactive{height: 9px;background-color: transparent;}
+::-webkit-scrollbar:vertical:window-inactive{width: 6px;background-color: transparent;}
+::-webkit-scrollbar:horizontal:window-inactive{height: 6px;background-color: transparent;}
 /* 滚动条方向按钮 */
-::-webkit-scrollbar-button:vertical:start:decrement{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:start:decrement{width: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:end:increment{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:end:increment{width: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:start:decrement:hover{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:start:decrement:hover{width: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:end:increment:hover{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:end:increment:hover{width: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:start:decrement:active{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:start:decrement:active{width: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:end:increment:active{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:end:increment:active{width: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:start:decrement:window-inactive{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:start:decrement:window-inactive{width: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:end:increment:window-inactive{height: 9px;background-color: transparent;}
-::-webkit-scrollbar-button:horizontal:end:increment:window-inactive{width: 9px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement:hover{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement:hover{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment:hover{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment:hover{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement:active{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement:active{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment:active{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment:active{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement:window-inactive{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement:window-inactive{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment:window-inactive{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment:window-inactive{width: 6px;background-color: transparent;}
 /* 滚动条拖动滑块 */
 ::-webkit-scrollbar-thumb:vertical{height: 0px;background-color: #999999;-webkit-border-radius: 0px;}
 ::-webkit-scrollbar-thumb:horizontal{width: 0px;background-color: #CCCCCC;-webkit-border-radius: 0px;}
@@ -91,8 +91,8 @@
         opacity: 1 !important;
         -moz-appearance: none !important;
         background-color: transparent !important;
-        min-width: 9px !important;
-        max-width: 9px !important;
+        min-width: 6px !important;
+        max-width: 6px !important;
         }
         /************************************************************************/
 
@@ -138,8 +138,8 @@
         -moz-appearance: none !important;
         background-color: transparent !important;
         opacity: .75 !important;
-        min-height: 9px !important;
-        max-height: 9px !important;
+        min-height: 6px !important;
+        max-height: 6px !important;
         }
 
 
@@ -150,8 +150,8 @@
         opacity: 1 !important;
         -moz-appearance: none !important;
         background-color: transparent !important;
-        min-height: 9px !important;
-        max-height: 9px !important;
+        min-height: 6px !important;
+        max-height: 6px !important;
         }
 
 
