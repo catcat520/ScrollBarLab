@@ -1,5 +1,5 @@
 /* 名称：007.BuTi.ScrollBar.Chinese.catcat520 *//* 别名：007.滚动条外观设置㊣ */
-/* 更新：2017.12.19 | 08:00 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
+/* 更新：2017.12.20 | 10:38 *//* 感谢：整合了 preciousche 的 Blue scroll bar-蓝色滚动条 */
 /* 功能：滚动条外观设置 *//*[[SwitchAGENT_SHEET]]*/
 /* 适用：Win/*nix 系统 和 FireFox 内核浏览器 *//* i really want this to be global */
 /* 网址：https://userstyles.org/styles/100474/ */
@@ -11,8 +11,11 @@
 ::-webkit-scrollbar:hover{width: 6px;height: 6px;background-color: transparent;}
 /* 用户设置 */
 /* 滚动条整体轨道 */
-::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}
-::-webkit-scrollbar:horizontal{height: /*[[ScrollBarTrackHeight]]*/;background-color: /*[[ScrollBarTrackXColor]]*/;}
+/*[[ScrollBarTrackSet]]*/::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}/**/
+/*[[ScrollBarTrackSet]]*//*/::-webkit-scrollbar:vertical{width: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackYColor]]*/;}/**/
+/*[[ScrollBarTrackSet]]*/::-webkit-scrollbar:horizontal{height: /*[[ScrollBarTrackWidth]]*/;background-color: /*[[ScrollBarTrackXColor]]*/;}/**/
+/*[[ScrollBarTrackSet]]*//*/::-webkit-scrollbar:horizontal{height: /*[[ScrollBarTrackHeight]]*/;background-color: /*[[ScrollBarTrackXColor]]*/;}/**/
+
 ::-webkit-scrollbar:vertical:hover{width: 6px;background-color: transparent;}
 ::-webkit-scrollbar:horizontal:hover{height: 6px;background-color: transparent;}
 ::-webkit-scrollbar:vertical:active{background-color: transparent;}
