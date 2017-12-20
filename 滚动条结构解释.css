@@ -14,6 +14,24 @@
 ::-webkit-scrollbar:vertical:window-inactive(鼠标离开垂直滚动条所在父窗口的子窗口焦点)(单屏幕，点击到地址栏窗口)
 ::-webkit-scrollbar:horizontal:window-inactive(鼠标离开水平滚动条所在父窗口的子窗口焦点)(双屏幕，点击到另外的显示器窗口)
 
+/* 滚动条方向按钮 */
+::-webkit-scrollbar-button:vertical:start:decrement{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement:hover{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement:hover{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment:hover{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment:hover{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement:active{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement:active{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment:active{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment:active{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement:window-inactive{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:start:decrement:window-inactive{width: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:end:increment:window-inactive{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:horizontal:end:increment:window-inactive{width: 6px;background-color: transparent;}
+
 
 
 
