@@ -17,9 +17,11 @@
 常用参数 : width/height/background-color
 
 /* 滚动条方向按钮 */
-::-webkit-scrollbar-button:vertical:start:decrement{height: 6px;background-color: transparent;}
+::-webkit-scrollbar-button:vertical:start:decrement(垂直滚动条上方按钮)
+::-webkit-scrollbar-button:vertical:end:increment(垂直滚动条下方按钮)
+
 ::-webkit-scrollbar-button:horizontal:start:decrement{width: 6px;background-color: transparent;}
-::-webkit-scrollbar-button:vertical:end:increment{height: 6px;background-color: transparent;}
+
 ::-webkit-scrollbar-button:horizontal:end:increment{width: 6px;background-color: transparent;}
 ::-webkit-scrollbar-button:vertical:start:decrement:hover{height: 6px;background-color: transparent;}
 ::-webkit-scrollbar-button:horizontal:start:decrement:hover{width: 6px;background-color: transparent;}
