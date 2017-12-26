@@ -9,8 +9,8 @@
 ::-webkit-scrollbar:vertical:hover(鼠标悬停在垂直滚动条上) / background-color
 ::-webkit-scrollbar:horizontal:hover(鼠标悬停在水平滚动条上) / background-color
 
-::-webkit-scrollbar:vertical:active(鼠标点击垂直滚动条)
-::-webkit-scrollbar:horizontal:active(鼠标点击水平滚动条)
+::-webkit-scrollbar:vertical:active(鼠标点击垂直滚动条) / background-color
+::-webkit-scrollbar:horizontal:active(鼠标点击水平滚动条) / background-color
 
 ::-webkit-scrollbar:vertical:window-inactive(鼠标离开垂直滚动条所在父窗口的子窗口焦点)(单屏幕，点击到地址栏窗口)
 ::-webkit-scrollbar:horizontal:window-inactive(鼠标离开水平滚动条所在父窗口的子窗口焦点)(双屏幕，点击到另外的显示器窗口)
